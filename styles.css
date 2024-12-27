@@ -1,0 +1,164 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+.toolbar {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: right;
+}
+
+.toolbar a {
+    color: white;
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+.toolbar a:hover {
+    text-decoration: underline;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.news-form, .news-item {
+    margin: 20px auto;
+    max-width: 600px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.news-form input, .news-form textarea, .news-form button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.news-form button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.news-form button:hover {
+    background-color: #0056b3;
+}
+
+.news-actions button, .news-actions a {
+    display: inline-block;
+    margin-top: 10px;
+    margin-right: 10px;
+    padding: 5px 10px;
+    font-size: 14px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.news-actions button {
+    background-color: #007BFF;
+    color: white;
+}
+
+.news-actions button:hover {
+    background-color: #0056b3;
+}
+
+.news-actions a {
+    background-color: #DC3545;
+    color: white;
+}
+
+.news-actions a:hover {
+    background-color: #a71d2a;
+}
+
+.pagination {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.pagination a {
+    margin: 0 5px;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: #007BFF;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.pagination a.active {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+}
+
+.pagination a:hover:not(.active) {
+    background-color: #ddd;
+}
+
+/* Централизованная стилизация форм входа и регистрации */
+.auth-form {
+    margin: 50px auto;
+    max-width: 400px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.auth-form input {
+    width: 95%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.auth-form button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.auth-form button:hover {
+    background-color: #0056b3;
+}
+
+.auth-form a {
+    display: block;
+    margin-top: 10px;
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.auth-form a:hover {
+    text-decoration: underline;
+}
+
+.error {
+    color: red;
+    margin-top: 10px;
+}
+
